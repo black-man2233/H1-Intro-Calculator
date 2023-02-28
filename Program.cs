@@ -4,7 +4,23 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            while (true)
+            {
+                mm();
+            }
+
+        }
+
+        static void mm()
+        {
+            Console.Write("Første tal : ");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Lorten : ");
+            string l = Console.ReadLine();
+
+            Console.Write("Anden tal : ");
+            int b = int.Parse(Console.ReadLine());
         }
     }
 }

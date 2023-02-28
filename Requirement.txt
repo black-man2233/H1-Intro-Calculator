@@ -4,7 +4,9 @@ Lav et repository
 Sørg for at begge har adgang til det
 Lav et projekt sammen som en lommeregner
 Lav jeres første kode sammen
+
 Lav metoderne som programmet skal indeholde sammen (plus, minus, gange og dividere)
+
 Commit ændringerne og push dem til jeres repository
 Del metoderne op imellem jer
 Lav 2 små metoder hver i en fil
