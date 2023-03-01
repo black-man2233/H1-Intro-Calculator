@@ -5,9 +5,7 @@ namespace H1_Intro_Calculator
     public class MathModel
     {
         /// <summary>
-        /// den suttre
-        /// for meget 
-        /// pik
+        /// metoden her tager imod 
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b">  </param>

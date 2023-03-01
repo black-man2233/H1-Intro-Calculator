@@ -38,10 +38,6 @@
 
             MathModel mat = new MathModel(a, b, l);
 
-            //
-            // switchen gør vi kan have nogle af disse cases.
-            // De tjekker så om hvilket input der blivet givet
-            // Og køre koden for den case med det rigtige input
 
         }
     }
