@@ -21,10 +21,11 @@
             }
 
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
         static void mm()
         {
-            MathModel mat = new MathModel();
 
             Console.Write("Første tal : ");
             int a = int.Parse(Console.ReadLine());
@@ -35,24 +36,13 @@
             Console.Write("Anden tal : ");
             int b = int.Parse(Console.ReadLine());
 
-            switch (l)
-            {
-                case "+":
-                    Console.WriteLine(mat.Plus(a, b));
-                    break;
-                case "-":
-                    Console.WriteLine(mat.Minus(a, b));
-                    break;
-                case "*":
-                    Console.WriteLine(mat.Multiply(a, b));
-                    break;
-                case "/":
-                    Console.WriteLine(mat.Divide(a, b));
-                    break;
+            MathModel mat = new MathModel(a, b, l);
 
-                default:
-                    break;
-            }
+            //
+            // switchen gør vi kan have nogle af disse cases.
+            // De tjekker så om hvilket input der blivet givet
+            // Og køre koden for den case med det rigtige input
+
         }
     }
 }
