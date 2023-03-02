@@ -9,36 +9,33 @@
 
             while (true)
             {
-                mm();
-
-                for (int i = 0; i < 2; i++)
+                try
                 {
-                    Console.WriteLine();
-                    Console.WriteLine();
-                    Console.WriteLine("--------------------------------");
+                    //Giving user the option to write any number
+                    //Store the written nummber
+                    Console.Write("Første tal : ");
+                    int a = int.Parse(Console.ReadLine());
+
+                    //Giving user the option to write Math equations (+,-,/,*)
+                    Console.Write("Lorten : ");
+                    string l = Console.ReadLine();
+
+                    Console.Write("Anden tal : ");
+                    int b = int.Parse(Console.ReadLine());
+
+                    MathModel mat = new MathModel(a, b, l);
+                }
+                catch
+                {
+                    Console.WriteLine("Der sket en fejl, Prøv igen");
                 }
 
+
+                Console.WriteLine();
+                Console.WriteLine("------------------------------");
+
+
             }
-
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        static void mm()
-        {
-
-            Console.Write("Første tal : ");
-            int a = int.Parse(Console.ReadLine());
-
-            Console.Write("Lorten : ");
-            string l = Console.ReadLine();
-
-            Console.Write("Anden tal : ");
-            int b = int.Parse(Console.ReadLine());
-
-            MathModel mat = new MathModel(a, b, l);
-
-
         }
     }
 }
